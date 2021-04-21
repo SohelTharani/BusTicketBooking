@@ -1,0 +1,233 @@
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+    background-color:#9bfce8;  
+    font-family: 'Arial';  
+}
+
+ #nav{
+     display: inline-block;
+ }
+ 
+ .nav-selected{
+     color: black !important;
+     background-color: silver;
+ }
+ 
+  nav, section, menu{
+     display: block;
+ }
+ 
+ 
+ ul, ol{
+     list-style-type: none;
+ }
+ 
+ #nav{
+     display: inline-block;
+ }
+ 
+ .nav-selected{
+     color: black !important;
+     background-color: silver;
+ }
+ 
+ /* header */
+ 
+ #header {
+     background: #228B22;
+     color: green;
+     cursor: default;
+     height: 5em;
+     left: 0;
+     line-height: 5em;
+     /* position: fixed; */
+     text-align: right;
+     top: 0;
+     width: 100%;
+     z-index: 10001;
+ }
+ 
+ #header .inner{
+     max-width: 90%;
+     margin: 0 auto;
+     position: relative;
+ }
+ #header img{
+ height: 80px;
+    width: auto;
+ }
+ #header .logo {
+ height: 80px !important;
+     display: inline-block;
+     background-color: white;
+     left: 0;
+     margin: 0;
+     position: absolute;
+     color: white;
+     font-size: 1.75em;
+     font-weight: normal;
+     padding: 0;
+ }
+ 
+     #header .logo:hover {
+         color: black;
+     }
+ #header a {
+     display: inline-block;
+     padding: 0 2em;
+     color: white;
+     text-decoration: none;
+     text-transform: uppercase;
+     font-weight: 700;
+     font-size: .85em;
+     background-color: #228B22;
+ }
+ 
+     #header a:hover {
+         color: darkgreen;
+     }
+ 
+     #header a:last-child {
+         padding-right: 0em;
+     }
+
+.button{
+	border: 1px solid black;
+	background: lightgray;
+	padding: 6px 15px;
+	text-decoration: none;
+	color: black;
+}
+table{
+	margin-top:50px;
+	padding:10px;
+	width: 100%;
+}
+td button{
+	width: 100%;
+}
+tr,td,table{
+	background: white;
+	border:1px solid black;
+	border-collapse:collapse;
+}
+td{
+	padding:5px;
+}
+span{  
+    color: white;  
+    font-size: 17px;  
+}  
+a{  
+    float: right;  
+    background-color: grey;  
+}  
+
+h2{  
+    text-align: center;  
+    color: #244424;  
+    padding: 20px;  
+}  
+
+.marginTop50{
+    margin-top: 50px;
+}
+
+.marginTop20{
+    margin-top: 20px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+/* Form */
+
+input,select    {
+    width: 100%;  
+    height: 30px;
+    margin-bottom: 10px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+  }
+
+
+  button{
+    width: 250px;  
+    height: 30px;
+    font-weight: 800;  
+    border: none;  
+    border-radius: 3px;  
+    text-align: center;  
+    color: #23463f;
+
+}
+.row{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 20px;
+ }
+
+ .col1{
+     grid-column: span 1;
+ }
+
+ .col2{
+    grid-column: span 2;
+}
+
+.col3{
+    grid-column: span 3;
+}
+
+.col4{
+    grid-column: span 4;
+}
+
+.col5{
+    grid-column: span 5;
+}
+
+.col6{
+   grid-column: span 6;
+}
+
+.col7{
+   grid-column: span 7;
+}
+
+.col8{
+   grid-column: span 8;
+}
+.col9{
+    grid-column: span 9;
+}
+
+.col10{
+   grid-column: span 10;
+}
+
+.col11{
+   grid-column: span 11;
+}
+
+.col12{
+   grid-column: span 12;
+}
+     @media screen and (min-width: 750px) {
+        br {
+          display: none; /* hide the BR tag for wider screens (i.e. disable the line break) */
+        }
+      }
+      
+input#gender {
+    width: 30px !important;
+    height:auto !important;
+}
